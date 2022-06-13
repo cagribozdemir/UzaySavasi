@@ -32,6 +32,7 @@ public class Asteroid : MonoBehaviour
     {
         if (collision.gameObject.tag == "Kursun")
         {
+            GameObject.FindGameObjectWithTag("Audio").GetComponent<SesKontrol>().AsteroidPatlama();
             oyunKontrol.AsteroidYokOldu(gameObject);
             AsteroidYokEt();
         }

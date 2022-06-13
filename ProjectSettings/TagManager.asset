@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Kursun
   - Asteroid
+  - Audio
   layers:
   - Default
   - TransparentFX
